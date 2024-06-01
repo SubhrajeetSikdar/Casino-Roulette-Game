@@ -13,8 +13,8 @@ int main() {
     char choice;
     srand(time(NULL)); // Seed the random number generator
     printf("Welcome to the Roulette Game!\n");
-    printf("Red numbers: 1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, 36\n");
-    printf("Black numbers: 2, 4, 6, 8, 10, 11, 13, 15, 17, 20, 22, 24, 26, 28, 29, 31, 33, 35\n");
+    printf("Red numbers:1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,36\n");
+    printf("Black numbers:2,4,6,8,10,11,13,15,17,20,22,24,26,28,29,31,33,35\n");
     printf("Green numbers: 0, 00\n");
     do {
         printf("\nPlace your bet (1 for Red, 2 for Black, 3 for Green): ");
