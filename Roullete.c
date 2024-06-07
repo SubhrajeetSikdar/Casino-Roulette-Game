@@ -18,8 +18,8 @@ int main() {
     printf("Green numbers: 0, 00\n");
     do {
         printf("\nPlace your bet (1 for Red, 2 for Black, 3 for Green): ");
-        scanf("%d", &bet);
-        if (bet < 1 || bet > 3) {
+        scanf("%d",&bet);
+        if (bet <1 || bet > 3) {
             printf("Invalid bet! Please choose again.\n");
             continue;
         }
